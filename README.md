@@ -1,8 +1,8 @@
 # Java Projects
-Java projects I have created throughout coursework
+Java projects I have created throughout coursework. These projects showcase a basic understanding of and skills with Java
 
 ## Skills
-These assignments showcase a basic understanding of Jave including:
+
 -Basic data types
 -Input and outputing data
 -Performing basic calculations
