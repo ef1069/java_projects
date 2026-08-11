@@ -1,0 +1,2 @@
+# Bookstore Credit Calculator
+This program receives inputed data about a student, then performs calculations to determine the amount of library credit each student gets based on their academic performance.
