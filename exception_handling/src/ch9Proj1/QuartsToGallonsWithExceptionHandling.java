@@ -20,5 +20,5 @@ public class QuartsToGallonsWithExceptionHandling {
 		int y=x%4;
 		return y;
 	}
-
+	
 }

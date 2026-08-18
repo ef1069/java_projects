@@ -1,4 +1,5 @@
 package ch8proj1;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class NineInts {
@@ -18,6 +19,13 @@ public class NineInts {
 			System.out.print("Numbers in the array from last to first:");
 			for (int k=8; k>=0; k--) {
 				System.out.print(numbers[k]+", ");
+			}
+			System.out.println();
+			int cloneNumbers[] = numbers.clone();
+			Arrays.sort(cloneNumbers);
+			System.out.print("Numbers in descending order:");
+			for (int k=8; k>=0; k--) {
+				System.out.print(cloneNumbers[k]+", ");
 			}
 			}
 				

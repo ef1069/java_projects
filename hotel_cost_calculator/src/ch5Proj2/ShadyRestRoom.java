@@ -9,18 +9,17 @@ public class ShadyRestRoom {
 			int room=inputDevice.nextInt();
 			int price=0;
 			System.out.print("The cost of your room will be: $");
-			System.out.println(roomCost(room,price));
-			System.out.print("Please reenter the cost of your room: $");
-			int cost=inputDevice.nextInt();
+			int initcost=roomCost(room,price);
+			System.out.println(initcost);
 			System.out.println("Please enter 1 if you would like a lake view, please enter 2 if you would like a park view:");
 			int view=inputDevice.nextInt();
 			System.out.print("The total cost of your room will be: $");
-			System.out.print(total(view,cost));
+			System.out.print(total(view,initcost));
 			}}
 		public static int roomCost(int x, int y) {
 			if (x==1)
 				return y=125;
-			else if (x==2)
+			else if (x==2) 
 				return y=139;
 			else if (x==3)
 				return y=165;

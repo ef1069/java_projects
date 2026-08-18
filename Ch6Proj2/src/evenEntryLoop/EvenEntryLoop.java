@@ -13,10 +13,10 @@ public class EvenEntryLoop {
 			if (num%2==0) {
 				System.out.println("Good Job!");
 			}
-			if (num==endval) {
+			else if (num==endval) {
 				System.out.print("Thank you, goodbye.");
 			}
-			if (num%2==1)
+			else if (num%2==1)
 				System.out.println("Try again.");
 		}
 	}

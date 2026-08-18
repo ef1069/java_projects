@@ -15,11 +15,11 @@ public class CarCareChoice {
 			
 			if (choice.equals(operation[0])) 
 				System.out.print("You have chosen an oil change, it will cost: $"+price[0]);
-			if (choice.equals(operation[1])) 
+			else if (choice.equals(operation[1])) 
 				System.out.print("You have chosen a tire rotation, it will cost: $"+price[1]);
-			if (choice.equals(operation[2])) 
+			else if (choice.equals(operation[2])) 
 				System.out.print("You have chosen a battery check, it will cost: $"+price[2]);
-			if (choice.equals(operation[3]))
+			else if (choice.equals(operation[3]))
 				System.out.print("You have chosen a brake inspection, it will cost: $"+price[3]);
 			else
 				System.out.print("You have entered an incorrect input, please try again.");
